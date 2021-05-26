@@ -1,0 +1,15 @@
+{% extends '../_templates/base.twig' %}
+{% set title = '#' %}
+{% set description = '#' %}
+{% block content %}
+
+    <div class="main">
+      {% include '../components/banner.twig' %}
+      {% include '../components/categories.twig' %}
+      {% include '../components/campaigns.twig' %}
+      {% include '../components/wehave.twig' %}
+      {% include '../components/aboutus.twig' %}
+      {% include '../components/reviews.twig' %}
+      {% include '../components/contacts.twig' %}
+    </div>
+{% endblock %}

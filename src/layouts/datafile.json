@@ -1,0 +1,255 @@
+{
+  "brandName": "",
+  "list1": [
+    {
+      "name": "Campings",
+      "url": "#"
+    },
+    {
+      "name": "Communities",
+      "url": ""
+    },
+    {
+      "name": "About us",
+      "url": "#",
+      "list2": [
+        {
+          "name": "How it Works",
+          "url": "#"
+        },
+        {
+          "name": "FAQs",
+          "url": "#"
+        },
+        {
+          "name": "Teams",
+          "url": "#"
+        },
+        {
+          "name": "Contacts",
+          "id": "1"
+        },
+        {
+          "name": "Reviews",
+          "url": "#"
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "name": "Medical",
+      "url": "#",
+      "class": "medical"
+    },
+    {
+      "name": "Sports",
+      "url": "#",
+      "class": "sports"
+    },
+    {
+      "name": "Animals",
+      "url": "#",
+      "class": "animals"
+    },
+    {
+      "name": "Business",
+      "url": "#",
+      "class": "business"
+    },
+    {
+      "name": "Community",
+      "url": "#",
+      "class": "community"
+    },
+    {
+      "name": "Family",
+      "url": "#",
+      "class": "family"
+    },
+    {
+      "name": "other categories",
+      "url": "#",
+      "class": "other"
+    }
+  ],
+  "cards": [
+    {
+      "name": "Social",
+      "class": "green",
+      "img": "2",
+      "name2": "Animals",
+      "name3": "Construction of a shelter for dogs",
+      "progress":"50",
+      "value": "$2,000.00"
+    },
+    {
+      "name": "Education",
+      "class": "orange",
+      "img": "1",
+      "name2": "Family",
+      "name3": "Help to save the camp",
+      "progress":"2",
+      "value": "$2,000.00"
+    },
+    {
+      "name": "Social",
+      "class": "blue",
+      "img": "3",
+      "name2": "Community",
+      "name3": "Port construction",
+      "progress":"50",
+      "value": "$2,000.00"
+    },
+    {
+      "name": "Social",
+      "class": "blue",
+      "img": "4",
+      "name2": "Medical",
+      "name3": "Fundraising for treatment",
+      "progress":"2",
+      "value": "$2,000.00"
+    }
+  ],
+  "have": [
+    {
+      "title": "Worldwide leader",
+      "name": "Whole world trusts us. We are reliable fundraising platform"
+    },
+    {
+      "title": "Simple setup",
+      "name": "You can personalize and share in just a few minutes."
+    },
+    {
+      "title": "24/7 expert advice",
+      "name": "Our best-in-class customer happiness agents will answer your questions, day or night."
+    },
+    {
+      "title": "Mobile app",
+      "name": "Together  makes it simple to launch and manage your campaign on the go."
+    },
+    {
+      "title": "Social reach",
+      "name": "Harness the power of social media to spread your story and get more support."
+    },
+    {
+      "title": "Fast and secure",
+      "name": "Most organizers can withdraw funds immediately and our team works around the clock to protect against fraud."
+    }
+  ],
+  "aboutlisting": [
+    {
+      "title": " «Your Help» helps registered community organizations",
+      "listing2": [
+        {
+          "name": "Track donations received",
+          "number":"1",
+          "class": "one"
+        },
+        {
+          "name": "Reward/recognize donors",
+          "number":"2",
+          "class": "two"
+        },
+        {
+          "name": "Transparency and accountability",
+          "number":"3",
+          "class": "three"
+        },
+        {
+          "name": "Annual reporting",
+          "number":"4",
+          "class": "four"
+        },
+        {
+          "name": "Global platform",
+          "number":"5",
+          "class": "five"
+        }
+      ]
+    },
+    {
+      "title": "«Your Help» helps supporters",
+      "listing2":[
+        {
+          "name": "Make cashless donations",
+          "number":"1",
+          "class": "one"
+        },
+        {
+          "name": "Track your donations",
+          "number":"2",
+          "class": "two"
+        },
+        {
+          "name": "Stay connected",
+          "number":"3",
+          "class": "three"
+        },
+        {
+          "name": "Collaborate",
+          "number":"4",
+          "class": "four"
+        }
+      ]
+    }
+  ],
+  "contactlist1": [
+    {
+      "name": "charitablefoundation@gmail.com",
+      "class": "mail"
+    },
+    {
+      "name": "st. Piraeus 2C 04-49 Warsaw, Poland",
+      "class": "geo"
+    }
+  ],
+  "contactlist2": [
+    {
+      "class": "in",
+      "url": "#"
+    },
+    {
+      "class": "fb",
+      "url": "#"
+    },
+    {
+      "class": "vk",
+      "url": "#"
+    }
+  ],
+  "footerlist": [
+    {
+      "name": "FAQs",
+      "url": "#"
+    },
+    {
+      "name": "About us",
+      "url": "#"
+    },
+    {
+      "name": "Terms",
+      "url": "#"
+    },
+    {
+      "name": "Charitable foundation",
+      "url": "#"
+    },
+    {
+      "name": "Privacy",
+      "url": "#"
+    },
+    {
+      "name": "Contact",
+      "url": "#"
+    },
+    {
+      "name": "Refund policy",
+      "url": "#"
+    },
+    {
+      "name": "How it Works",
+      "url": "#"
+    }
+  ]
+}

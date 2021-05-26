@@ -1,0 +1,71 @@
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    // инициализация слайдера
+    var slider = new SimpleAdaptiveSlider('.slider', {
+      autoplay: true,
+      interval: 10000,
+    });
+  });
+</script>
+<div class="reviews">
+  <div class="reviews__title">
+    <h2>
+      Reviews
+    </h2>
+  </div>
+  <div class="slider__container container">
+    <div class="slider">
+      <div class="slider__wrapper">
+        <div class="slider__items">
+          <div class="slider__item">
+            <div class="slider__item_inner">
+              <span class="slider__item_img">
+                <img class="slider__item_photo" src="/img/ava1.png" alt="">
+              </span>
+              <span class="slider__item_testimonial">
+                <span class="slider__item_name">Monica S.</span>
+                <span class="slider__item_text">
+                  “This website rocks! I raised close to $10,000 in less than 48 hours for my nephew’s medical needs,
+                  and
+                  your customer service was so prompt and helpful.”
+                </span>
+              </span>
+            </div>
+          </div>
+          <div class="slider__item">
+            <div class="slider__item_inner">
+              <span class="slider__item_img">
+                <img src="/img/ava1.png" alt="">
+              </span>
+              <span class="slider__item_testimonial">
+                <span class="slider__item_name">Monica S.</span>
+                <span class="slider__item_text">
+                  “This website rocks! I raised close to $10,000 in less than 48 hours for my nephew’s medical needs,
+                  and
+                  your customer service was so prompt and helpful.”
+                </span>
+              </span>
+            </div>
+          </div>
+          <div class="slider__item">
+            <div class="slider__item_inner">
+              <span class="slider__item_img">
+                <img src="/img/ava1.png" alt="">
+              </span>
+              <span class="slider__item_testimonial">
+                <span class="slider__item_name">Monica S.</span>
+                <span class="slider__item_text">
+                  “This website rocks! I raised close to $10,000 in less than 48 hours for my nephew’s medical needs,
+                  and
+                  your customer service was so prompt and helpful.”
+                </span>
+              </span>
+            </div>
+          </div>
+
+        </div>
+        <a class="slider__control slider__control_prev" href="#" role="button" data-slide="prev"></a>
+        <a class="slider__control slider__control_next" href="#" role="button" data-slide="next"></a>
+      </div>
+    </div>
+  </div>

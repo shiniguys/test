@@ -1,0 +1,15 @@
+<div class="have container">
+  <h2>
+    We have everything you need
+  </h2>
+  <ul class="have__list">
+    {% for item in have %}
+    <li class="have__item">
+      <h3>
+        {{item.title}}
+      </h3>
+      <p>{{item.name}}</p>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

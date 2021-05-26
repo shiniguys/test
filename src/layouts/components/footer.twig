@@ -1,0 +1,19 @@
+<div class="footer__container container">
+  <div class="footer__wrapper">
+    <a href="#" class="header__link">
+      Your Help
+    </a>
+    <ul class="footer__list">
+      {% for item in footerlist %}
+      <li class="footer__item">
+        <a href="/{{item.url}}" class="footer__link">
+          {{item.name}}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <span class="footer__since">
+    © 2020. «Your Help». Charitable foundation.
+  </span>
+</div>

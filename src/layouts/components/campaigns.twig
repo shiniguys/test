@@ -1,0 +1,43 @@
+<div class="campaigns container">
+  <div class="campaigns__title">
+    <h2>
+      Campaigns
+    </h2>
+    <p class="campaigns__text">
+      Our project is more than a collection of charitable aid,
+      it is an association for a common goal.
+    </p>
+  </div>
+  <div class="cards">
+    <ul class="cards__list">
+      {% for item in cards %}
+      <li class="cards__item">
+        <a href="/{{item.url}}" class="cards__link">
+          <div class="cards__name">
+            <div class="cards__color {{item.class}}">
+
+            </div>
+            <p>
+              {{item.name}}
+            </p>
+          </div>
+          <img src="/img/{{item.img}}.png" alt="{{item.name}}">
+          <div class="cards__descr">
+            <div class="cards__color {{item.class}}">
+
+            </div>
+            <p>{{item.name2}}</p>
+          </div>
+          <div class="cards__value">
+            <p style="font-weight: 600;">
+              {{item.name3}}
+            </p>
+            <progress id="file" max="100" value="{{item.progress}}"> {{item.progress}}% </progress>
+            <span> Goal {{item.value}}</span>
+          </div>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

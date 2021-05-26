@@ -1,0 +1,13 @@
+<div class="categories container">
+  <ul class="categories__list">
+    {% for item in categories %}
+    <li class="categories__item">
+      <a href="/{{item.url}}" class="categories__link {{item.class}}">
+      </a>
+      <p class="categories__name">
+        {{item.name}}
+      </p>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

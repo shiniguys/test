@@ -1,0 +1,46 @@
+<div id="2" class="contacts__container container">
+  <div class="contacts__title">
+    <h2>
+      Contact Us
+    </h2>
+    <p>
+      Just write us a messege!
+    </p>
+  </div>
+  <div class="contacts__wrapper">
+    <div class="contacts__main">
+      <div class="contacts__main-title">
+        <h3>
+          Contacts information
+        </h3>
+        <p>
+          Fill in the form and our team will get back to you within 24 hours.
+        </p>
+      </div>
+      <ul class="contacts__main-list">
+        {% for item in contactlist1 %}
+        <li class="contacts__main-item {{item.class}}">
+          {{item.name}}
+        </li>
+        {% endfor %}
+      </ul>
+      <ul class="contacts__soc-list">
+        {% for item in contactlist2 %}
+        <li class="contacts__soc-item">
+          <a href="/{{item.url}}" class="contacts__soc-link {{item.class}}">
+
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="contacts__form">
+      <form action="send.php" method="post">
+        <input placeholder="Your Name" type="text" name="fio" required>
+        <input placeholder="E-mail" type="email" name="email">
+        <textarea name="message" cols="50" rows="10" placeholder="Write your message..."></textarea>
+        <input class="contacts__form-btn" type="submit" value="Sand messege">
+      </form>
+    </div>
+  </div>
+</div>

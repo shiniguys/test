@@ -1,0 +1,29 @@
+<div class="aboutus container">
+  <h2>
+    About us
+  </h2>
+  <div class="aboutus__main">
+    <img src="/img/aboutus.png" alt="About us" title="about us" class="aboutus__img">
+    <p class="aboutus__text">
+      The website connects community organizations to their supporters
+      who can make donations using debit or credit card.
+    </p>
+  </div>
+  <div class="aboutus__help">
+    {% for item in aboutlisting %}
+    <div class="aboutus__listing">
+      <h3>{{item.title}}</h3>
+      <ul class="aboutus__list">
+        {% for item in item.listing2 %}
+        <li class="aboutus__item">
+          <div class="aboutus__item-circle {{item.class}}">
+            {{item.number}}
+          </div>
+          <p>{{item.name}}</p>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+  </div>
+</div>
